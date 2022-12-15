@@ -1,0 +1,15 @@
+Float Formatting
+#include<iostream>
+#include<cmath>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    float f;
+    cin>>f;
+    cout<<f<<endl;
+    printf("%.3f\n",f);
+    printf("%.2f\n",f);
+    printf("%.1f\n",f);
+    return 0;
+}
