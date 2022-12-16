@@ -1,0 +1,13 @@
+Round off
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    float f;
+    cin>>f;
+    cout<<floor(f)<<endl;
+    cout<<ceil(f)<<endl;
+    cout<<floor(f);
+    return 0;
+}
