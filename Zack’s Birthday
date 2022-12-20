@@ -1,0 +1,66 @@
+Zack’s Birthday
+#include<iostream>
+using namespace std;
+int main()
+{
+    int mon,a;
+    float amt,amt_dis;
+    cin >> amt >> mon;
+    switch(mon)
+    {
+        case 1:
+        a = (amt*20)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs. %.2f",amt_dis);
+        break;
+        case 2:
+        printf("Zack's father needs to pay Rs.%.2f",amt);
+        break;
+        case 3:
+        a = (amt*10)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs. %.2f",amt_dis);
+        break;
+        case 4:
+        a = (amt*10)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        case 5:
+        printf("Zack's father needs to pay Rs.%.2f",amt);
+        break;
+        case 6:
+        a = (amt*75)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        case 7:
+        a = (amt*75)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        case 8:
+        printf("Zack's father needs to pay Rs.%.2f",amt);
+        break;
+        case 9:
+        printf("Zack's father needs to pay Rs.%.2f",amt);
+        break;
+        case 10:
+        a = (amt*30)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        case 11:
+        a = (amt*30)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        case 12:
+        a = (amt*35)/100;
+        amt_dis = amt-a;
+        printf("Zack's father needs to pay Rs.%.2f",amt_dis);
+        break;
+        return 0;
+       
+    }
+}
