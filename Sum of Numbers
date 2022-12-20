@@ -1,0 +1,21 @@
+Sum of Numbers
+#include<iostream>
+using namespace std;
+int main()
+{
+    int sum=0,i,a;
+    for(i=0;i>=0;i++)
+    {
+        cin>>a;
+        if(a>=0)
+        {
+            sum=sum+a;
+        }
+        else
+        {
+            break;
+        }
+        
+    }
+    cout<<sum;
+}
