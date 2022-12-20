@@ -1,0 +1,31 @@
+Abraham’s Bank Account
+#include<iostream>
+using namespace std;
+int main()
+{
+    int amt_acc,n,amt,deposit,withdraw;
+    cin >> amt_acc >> n >> amt;;
+    switch(n)
+    {
+        case 1:
+        deposit=amt_acc+amt;
+        cout << deposit;
+        break;
+        case 2:
+        if(amt_acc<amt)
+        {
+            cout << "Insufficient Balance";
+        }
+        else
+        {
+            withdraw=amt_acc-amt;
+            cout << withdraw;
+        }
+        break;
+       
+        default:
+        cout << "Invalid Input";
+    }
+    return 0;    
+   
+}
