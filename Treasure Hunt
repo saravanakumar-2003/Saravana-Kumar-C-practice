@@ -1,0 +1,17 @@
+Treasure Hunt
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,z;
+    cin>>x>>y>>z;
+    int a,b,c;
+    a=(x*y)/100;
+    b=(x-a)*z/100;
+    c=(x-(a+b))/3;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c;
+    return 0;
+   
+}
