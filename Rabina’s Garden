@@ -1,0 +1,21 @@
+Rabina’s Garden
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin >> a >> b >> c;
+    if(c>b && c<= 2 * b)
+    {
+        printf("It is a mango tree");
+    }
+    else if(c<= a*(b - 1) && c>=(a*(b-1))-a)
+    {
+        printf("It is a mango tree");
+    }
+    else
+    {
+        printf("It is not a mango tree");  
+    }
+}
+
