@@ -1,0 +1,21 @@
+Savings and Expenses
+#include<iostream>
+using namespace std;
+int main()
+{
+    int salary,a,b,c,d;
+    cin>>salary>>a>>b>>c>>d;
+    if(salary-(a+b+c+d)>=0)
+    {
+        cout<<"He can save the money";
+    }
+    else if(salary-(a+b+c+d)==0)
+    {
+        cout<<"His salary will be able to manage his expenses alone";
+    }
+    else
+    {
+        cout<<"He wants to work hard";
+    }
+    return 0;
+}
