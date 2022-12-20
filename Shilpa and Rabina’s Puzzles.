@@ -1,0 +1,29 @@
+Shilpa and Rabina’s Puzzles.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int h,m,s,a,b;
+    cin>>h>>m>>s;
+    cout<<"Total Number of hours is "<<h<<endl;
+    if(s>=60)
+    {
+        a=m+1;
+        cout<<"Total Number of minutes is "<<a<<endl;
+    }
+    else
+    {
+        cout<<"Total Number of minutes is "<<m<<endl;
+    }
+    if(s>=60)
+    {
+        b=s-60;
+        cout<<"Total Number of seconds is "<<b;
+    }
+    else
+    {
+       cout<< "Total Number of seconds is "<<s;
+    }
+       
+   
+}
