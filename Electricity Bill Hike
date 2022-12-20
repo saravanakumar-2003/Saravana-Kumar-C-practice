@@ -1,0 +1,26 @@
+Electricity Bill Hike
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    if(a<=200)
+    {
+        cout<<"Rs."<<a*0.5;
+    }
+    else if(a<=400 && a>200)
+    {
+        cout<<"Rs."<<ceil((a*0.65) + 100);
+    }
+    else if(a<=600 && a>400)
+    {
+        cout<<"Rs."<<ceil((a*0.80) +200);
+    }
+    else if(a>600)
+    {
+        cout<<"Rs."<<ceil((a*1.25)+425);
+    }
+    return 0;
+}
