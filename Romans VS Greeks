@@ -1,0 +1,15 @@
+Romans VS Greeks
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    int x1,y1,x2,y2;
+    x1=a;
+    y1=b;
+    x2=a+c;
+    y2=b+c;
+    cout<<(x1+x2)/2<<" "<<(y1+y2)/2;
+    return 0;
+}
