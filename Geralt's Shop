@@ -1,0 +1,20 @@
+Geralt's Shop
+#include<iostream>
+using namespace std;
+int main()
+{
+    string a;
+    int x,y,z,i,j;
+    cin>>a>>x>>y>>z;
+    i=y*z;
+    j=x-z;
+    cout<<"Amount for "<< z <<" "<< a <<" is "<<i<<endl;
+    if(y<=z)
+    {
+        cout<<"Out of stock";
+    }
+    else
+    {
+        cout<<"Remaining number of pencil present in stock is " << j;
+    }
+}
