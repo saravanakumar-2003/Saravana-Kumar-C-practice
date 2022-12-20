@@ -1,0 +1,13 @@
+Culturals Training
+#include<iostream>
+using namespace std;
+int main()
+{
+    int s,t,a;
+    cin>>s;
+    cin>>t;
+    a=s/t;
+    cout<<a<<endl;
+    cout<<s-(a*t);
+    return 0;
+}
