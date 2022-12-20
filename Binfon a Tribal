@@ -1,0 +1,15 @@
+Binfon a Tribal
+#include<iostream>
+using namespace std;
+int main()
+{
+   int Days,week,months,years,total_days;
+   cin >> Days;
+   years=(Days/365);
+   week=(Days%365)/7;
+   total_days=(Days%365)%7;
+   cout << years <<endl;
+   cout << week <<endl;
+   cout << total_days <<endl;
+   return 0;
+}  
