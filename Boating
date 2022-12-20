@@ -1,0 +1,22 @@
+Boating
+#include<iostream>
+using namespace std;
+int main()
+{
+    int w,a,c,av;
+    cin>>w>>a>>c;
+    av=(75*a)+(50*c);
+    if(w>av)
+    {
+        cout<<"Boat is Stable";
+    }
+    else if(w<av)
+    {
+        cout<<"Boat will drown";
+    }
+    else
+    {
+        cout<<"Boat is Stable";
+    }
+    return 0;
+}
