@@ -1,0 +1,15 @@
+The Discount
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,d,e,f;
+    cin>>a>>b>>c;
+    d=a+b;
+    e=d*(c/100);
+    f=d-e;
+    printf("\n%.2f",d);
+    printf("\n%.2f",f);
+    printf("\n%.2f",e);
+    return 0;
+}
