@@ -1,0 +1,12 @@
+Football Stadium
+#include<iostream>
+using namespace std;
+int main()
+{
+    int l,b;
+    cin>>l;
+    cin>>b;
+    cout<<2*l + 2*b<<endl;
+    cout<<l*b<<endl;
+    return 0;
+}
