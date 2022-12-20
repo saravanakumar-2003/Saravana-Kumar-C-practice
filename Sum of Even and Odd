@@ -1,0 +1,37 @@
+Sum of Even and Odd
+#include<iostream>
+using namespace std;
+int main()
+{
+    int avg1=0,i,a,n1,n2;
+    float avg2=0,sum1=0,sum2=0;
+    for(i=0;i>=0;i++)
+    {
+        cin>>a;
+        if(a>0)
+        {
+            if(a%2==0)
+            {
+                sum1+=a;
+                n1+=1;
+            }
+            else
+            {
+                sum2+=a;
+                n2+=1;
+            }
+        }
+        
+        else
+        {
+            break;
+        }
+        
+    }
+    avg1=sum1/n1;
+    avg2=sum2/n2;
+    cout<<sum1<<endl;
+    cout<<sum2<<endl;
+    cout<<avg1<<endl;
+    cout<<avg2<<endl;
+}
