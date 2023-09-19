@@ -1,0 +1,55 @@
+#include<iostream>
+using namespace std;
+int isprime(int n)
+{
+    int fact=0;
+    for(int i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        fact++;
+    }
+    if(fact>2)
+    {
+        return 0;
+    }
+    else
+    {
+        return 1;
+    }
+}
+int gpn(int n)
+{
+    int gpn;
+    for(int j=n/2;j>1;j--)
+    {
+        gpn=j;
+        if(n%j==0)
+        {
+            
+            if(isprime(j)==1)
+            {
+                break;
+            }
+        }
+    }
+    return gpn;
+}
+int main()
+{
+    int count=0,n;
+    cin>>n;
+    while(n!=0)
+    {
+        if(isprime(n)==1)
+        {
+            n=n-1;
+            count++;
+        }
+        else
+        {
+            n=gpn(n);
+            count++;
+        }
+    }
+    cout<<count;
+}
